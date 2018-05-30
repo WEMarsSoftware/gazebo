@@ -1,0 +1,12 @@
+<launch>
+  <arg name="x" default="0"/>
+  <arg name="y" default="0"/>
+  <arg name="z" default="1"/>
+  <node
+    name="spawn_model"
+    pkg="gazebo_ros"
+    type="spawn_model"
+    args="-file $(find rover_description)/urdf/rover.urdf -urdf -model rover 
+          -x $(arg x) -y $(arg y) -z $(arg z)"
+    output="screen" />
+</launch>

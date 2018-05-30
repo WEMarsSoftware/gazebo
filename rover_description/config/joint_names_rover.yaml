@@ -1,0 +1,1 @@
+controller_joint_names: ['rocker_right_joint', 'rocker2_right_joint', 'wheel_rm_joint', 'wheel_rb_joint', 'wheel_rf_joint', 'rocker_left_joint', 'rocker2_left_joint', 'wheel_lm_joint', 'wheel_lb_joint', 'wheel_lf_joint', 'arm_0_joint', 'arm_1_joint', 'arm_2_joint', 'arm_3_joint', 'arm_4_joint', 'grip_base_joint', 'grip_right_joint', 'grip_left_joint', ]
